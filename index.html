@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design</title>
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#portfolio">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Faizane Rasul</h1>
+            <h3>And I'm a <span>Software Developer</span></h3>
+            <p>Dedicated and ambitious B.tech student with a passion for computer science and a strong desire to contribute to technology advancement.Proficient in C++ and equiped with a solid understanding of core engineering principle proven ability to tackle complex challenges, both individually and collaboratively, while maintaining a keen eye for details.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="Faizan resume.pdf.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="images/home 1.jpeg" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about 1.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Software Developer!</h3>
+            <p>I have completed my 10th and 12th from BSEB board with 68.4% and 81% respectively. Currently i am pursuing B.tech(CSE) from MEERUT INSTITUTE OF TECHNOLOGY, Meerut (2020-2024)</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Skills section design -->
+
+    <section class="Skills" id="Skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="Skills-container">
+            <div class="Skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Devlopment</h3>
+                <p>I have knowledge of HTML5, CSS3, basic of Java Script. Using HTML5, CSS3 and java Scirpt i made 2 project. <1> Food delivery website. <2>Gym Website.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="Skills-box">
+                <i class='bx bxl-microsoft'></i>
+                <h3>Data Structure and Algorithm</h3>
+                <p>I have also knowledge of DSA with implmentation.And currently i am working on it to improve my implementation skill more.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="Skills-box">
+                <i class='bx bxl-c-plus-plus'></i>
+                <h3>Game Devlopment</h3>
+                <p>For the game development C++ programming language is used. I made 3 project using c++ <1> Tic-tac-Toe game <2> Random-number-guessing game <3> Simple Calculator project. </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Simple calculator</h4>
+                    <p>I made this Project using C++ programmng language. This calculator perform basic mathematic operations like +,-,*,/</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Random-Number-Guessing</h4>
+                    <p>This project is also implemented using C++ programming language. In this project system generate a random number and we have to guess in a limited attempt. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Tic-Tac-Toe game</h4>
+                    <p>This is a game implemented using C++ programming language. In this 2 users play together</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Gym website</h4>
+                    <p>I made this project using HTML5 and CSS3.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="https://formsubmit.co/faizanerasul@gmail.com" method="POST">
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" name ="Name" placeholder="Full Name" required>
+                <input type="email" name="EMail" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" required>
+                <input type="text" placeholder="Email Subject" required>
+            </div>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>copyright &copy; 2023 by codehal | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
